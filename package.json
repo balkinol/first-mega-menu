@@ -1,0 +1,16 @@
+{
+  "name": "mega-menu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d mega-menu"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://balkinol.github.io/first-mega-menu",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

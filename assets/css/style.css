@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+img {
+  width: 100%;
+}
+
+#z-top {
+  z-index: 1;
+}
+
+.menu-area {
+  position: static !important;
+}
+
+.text-line {
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+  text-align: center;
+}
+
+.small-text {
+  font-size: 14px;
+}
+
+.link-underline {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+
+.showcase {
+  background: url(../img/gray-bg2.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.showcase-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mega-area {
+  position: absolute !important;
+  width: 100vw !important;
+  left: 0 !important;
+  top: 10vh !important;
+  border-bottom: 2px solid #000 !important;
+  overflow-y: hidden;
+}
+
+@media (max-width: 1024px) {
+  .mega-area {
+    position: absolute !important;
+    width: 100vw !important;
+    left: 0 !important;
+    top: 3.8vh !important;
+    border-bottom: 2px solid #000 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .text-line {
+    width: 30%;
+    height: 1px;
+    background: #ccc;
+    text-align: center;
+  }
+
+  .small-text {
+    font-size: 14px;
+  }
+
+  .link-underline {
+    font-size: 1rem;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    margin-right: 2rem;
+  }
+
+  .mega-area {
+    position: absolute !important;
+    width: 100vw !important;
+    left: 0 !important;
+    top: 31vh !important;
+    border-bottom: 2px solid #000 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-line {
+    width: 30%;
+    height: 1px;
+    background: #ccc;
+    text-align: center;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+
+  .link-underline {
+    font-size: 1rem;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    margin-right: 1rem;
+  }
+
+  .mega-area {
+    position: absolute !important;
+    width: 100vw !important;
+    left: 0 !important;
+    top: 40vh !important;
+    border-bottom: 2px solid #000 !important;
+  }
+}
